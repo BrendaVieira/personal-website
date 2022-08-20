@@ -1,0 +1,227 @@
+.borda {
+    border: 1px solid red;
+}
+
+body {
+    background-color: #754bc2;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    padding: 30px 150px 0px 150px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #FF2E5F;
+    border: none;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn a {
+    color: #FAEECA;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 15px 20px;
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+}
+
+#cabecalho nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ced4da;
+}
+
+#cabecalho ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+#cabecalho ul li a {
+    font-weight: bold;
+    color: #ced4da;
+    margin: 0px 10px;
+}
+
+#cabecalho ul li a:hover {
+    color: #FF2E5F;
+    transition: all 1s;
+}
+
+#cabecalho nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+#contato {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    text-align: center;
+}
+
+#contato h1 {
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+#contato #botoes {
+    display: flex;
+}
+
+.texto-chamada {
+    font-size: 24px;
+}
+
+#texto-principal h1{
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#texto-principal p {
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+}
+
+#texto-principal {
+    width: 30%;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #d20938;
+}
+
+.btn-social {
+    background-color: #FFB6B6;
+    margin-left: 10px;
+}
+
+.btn-social:hover {
+    background-color: #fa9292;
+}
+
+.btn-social a {
+    color: #3F3D56;
+}
+
+#logo_whatsapp, #logo_email {
+    width: 25px;
+    height: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #6610f2;
+    width: 100%;
+}
+
+footer p {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+@media all and (min-device-width: 320px) and (max-device-width: 670px)
+{
+
+    .btn a {
+        font-size: 32px;
+    }
+
+    .container {
+        padding: 30px 20px 0px 20px;
+    }
+
+    #cabecalho ul li a {
+        font-size: 28px;
+    }
+
+    #logo {
+        font-size: 40px;
+    }
+
+    main {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #texto-principal {
+        width: 100%;
+    }
+
+    #texto-principal h1  {
+        font-size: 80px;
+        text-align: center;
+    }
+
+    #texto-principal p  {
+        font-size: 52px;
+        text-align: center;
+    }
+
+    #contato {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #contato h1 {
+        font-size: 80px;
+    }
+
+    .texto-chamada {
+        font-size: 48px;
+    }
+
+    #contato #botoes {
+        justify-content: center;
+    }
+
+    .btn-social a {
+        padding: 30px;
+    }
+
+    .btn-social img {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 60px 0px;
+    }
+
+    footer p {
+        font-size: 48px;
+        text-align: center;
+    }
+}
